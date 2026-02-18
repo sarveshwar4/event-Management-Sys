@@ -13,7 +13,7 @@ This repository contains a modular, reusable, and testable Event Management Syst
 ```
 backend/
   package.json
-  .env.sample
+  .env
   src/
     app.js
     server.js
@@ -25,6 +25,7 @@ backend/
     routes/
 frontend/
   package.json
+  .env
   src/
     index.js
     App.js
@@ -38,13 +39,13 @@ README.md
 
 ### Backend
 
-1. Copy `.env.sample` to `.env` and fill in values.
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    cd backend
    npm install
    ```
-3. Run the server:
+3. create .env   
+2. Run the server:
    ```bash
    npm run dev
    ```
